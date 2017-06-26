@@ -1,0 +1,44 @@
+---
+title: "Untitled"
+author: "张丽"
+date: "2017年6月14日"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+
+```{r cars}
+summary(cars)
+data=head(cars)
+
+```
+
+
+
+插入本地图片
+
+
+
+![R project](https://www.r-project.org/Rlogo.png)
+
+
+<a href="http://baidu.com"> 百度首页 </a>
+
+[百度首页](http://baidu.com)
+
+
+
+
+
+
+
+
+
